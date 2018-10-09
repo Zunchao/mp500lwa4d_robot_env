@@ -48,7 +48,7 @@ def main():
         sent_velocity_client.talker()
         sent_velocity_client.move_arm()
 
-        time.sleep(2)
+        #time.sleep(2)
         R_S = sent_velocity_client.ReadState()
         re_x, re_y, re_z = R_S.read_model_state()
 
